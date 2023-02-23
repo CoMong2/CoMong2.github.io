@@ -17,11 +17,11 @@ function App() {
     <div className="App">
       <Navbar bg="dark" variant="dark" className="">
         <Container>
-          <Navbar.Brand onClick={() => { navigate('/')}}>Modern Life</Navbar.Brand>
+          <Navbar.Brand onClick={() => { navigate('/') }}>Modern Life</Navbar.Brand>
           <Nav className="me-auto">
-            <Nav.Link onClick={() => { navigate(-1)}}>Home</Nav.Link>
+            <Nav.Link onClick={() => { navigate('/') }}>Home</Nav.Link>
             <Nav.Link href="/product">Product</Nav.Link>
-            <Nav.Link onClick={() => { navigate('/detail')}}>Basket</Nav.Link>
+            <Nav.Link onClick={() => { navigate('/detail') }}>Basket</Nav.Link>
             <Nav.Link href="/about">About</Nav.Link>
           </Nav>
         </Container>
