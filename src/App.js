@@ -91,11 +91,9 @@ function Product (props) {
   return (
     //2. After making component, Reply data binding
     <div className="col-md-4">
-      <span>
-        <img src={ "https://codingapple1.github.io/shop/shoes" + (props.index + 1) +".jpg" } width="80%"></img>
-        <h4>{ props.shoes.title }</h4>
-        <p>{ props.shoes.price }</p>
-      </span>
+      <img src={ "https://codingapple1.github.io/shop/shoes" + (props.index + 1) +".jpg" } width="80%"></img>
+      <h4>{ props.shoes.title }</h4>
+      <p>{ props.shoes.price }</p>
     </div>
   )
 }
